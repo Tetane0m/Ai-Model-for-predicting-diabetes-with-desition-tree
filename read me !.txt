@@ -1,0 +1,48 @@
+by : hayder sabah ahmed :)    .
+
+
+This script is a basic implementation of a decision tree model for predicting diabetes based on various factors. Let's break down the functionality and flow of the code:
+
+1. **Data Loading**: The script starts by loading data from two Excel files: 'data' containing input features and 'output' containing target labels.
+
+2. **Model Information**: Information about the model and its dependent factors (features) is displayed.
+
+3. **Input for Test Data**: The user is prompted to specify the number of rows they want to use as test data out of the available 308 training data points.
+
+4. **Data Validation**: The script checks if the user input is within the valid range (1 to 308). If not, it displays a message and exits the script.
+
+5. **Data Preparation**: If the input is valid, the script splits the data into training and testing sets based on the user's input.
+
+6. **Model Training**: A decision tree model is built using the training data.
+
+7. **Decision Tree Visualization**: The user is asked if they want to visualize the decision tree. If they choose yes, the decision tree is displayed.
+
+8. **Prediction**: The model predicts the class for the test data.
+
+9. **Result Display**: The actual and predicted classes are displayed along with the corresponding input features. If the predicted class is 1, it indicates the patient has diabetes; otherwise, it indicates the patient does not have diabetes.
+
+Overall, this script allows users to train a decision tree model on diabetes data, visualize the decision tree if desired, and make predictions on new data. It provides a basic framework for diabetes prediction but may require further refinement and validation for practical use.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+هذا السكربت هو تنفيذ أساسي لنموذج شجرة القرار لتنبؤ السكري استنادًا إلى عوامل مختلفة. دعونا نقسم وظائف وتدفق الشفرة:
+
+1. **تحميل البيانات**: يبدأ السكربت بتحميل البيانات من ملفات Excel اثنين: 'data' التي تحتوي على ميزات الإدخال و 'output' التي تحتوي على تسميات الهدف.
+
+2. **معلومات النموذج**: يتم عرض معلومات حول النموذج والعوامل التي يعتمد عليها (الميزات).
+
+3. **إدخال بيانات الاختبار**: يُطلب من المستخدم تحديد عدد الصفوف التي يريد استخدامها كبيانات اختبار من بين 308 نقاط بيانات تدريبية متاحة.
+
+4. **التحقق من البيانات**: يقوم السكربت بالتحقق مما إذا كان إدخال المستخدم داخل النطاق الصالح (من 1 إلى 308). إذا لم يكن كذلك، يتم عرض رسالة ويتم إنهاء السكربت.
+
+5. **تحضير البيانات**: إذا كان الإدخال صالحًا، يقوم السكربت بتقسيم البيانات إلى مجموعات تدريب واختبار استنادًا إلى إدخال المستخدم.
+
+6. **تدريب النموذج**: يتم بناء نموذج شجرة القرار باستخدام البيانات التدريبية.
+
+7. **تصور شجرة القرار**: يُطلب من المستخدم ما إذا كانوا يرغبون في تصور شجرة القرار. إذا اختاروا نعم، يتم عرض شجرة القرار.
+
+8. **التنبؤ**: يقوم النموذج بتنبؤ الفئة لبيانات الاختبار.
+
+9. **عرض النتائج**: يتم عرض الفئات الفعلية والمتوقعة بالإضافة إلى الميزات الدخل المقابلة. إذا كانت الفئة المتوقعة تساوي 1، فإن ذلك يشير إلى أن المريض يعاني من مرض السكري؛ وإلا، فإن ذلك يشير إلى أن المريض لا يعاني من مرض السكري.
+
+بشكل عام، يتيح هذا السكربت للمستخدمين تدريب نموذج شجرة القرار على البيانات المتعلقة بمرض السكري، وتصور شجرة القرار إذا رغبوا في ذلك، وإجراء تنبؤات على بيانات جديدة. إنه يوفر إطارًا أساسيًا لتوقع السكري ولكن قد يتطلب تحسينًا وتحققًا إضافيًا للاستخدام العملي.
